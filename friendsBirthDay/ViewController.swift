@@ -58,7 +58,7 @@ class ViewController: UIViewController {
             birthDayOutput.text = "birthday: "
             
         }
-       
+       print(name)
         
     }
     
