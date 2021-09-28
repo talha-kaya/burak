@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     var name:String = ""
     
     var birthDay:String = ""
-    
+      
  
     @IBOutlet weak var nameInput: UITextField!
     @IBOutlet weak var birthDayInput: UITextField!
@@ -58,7 +58,7 @@ class ViewController: UIViewController {
             birthDayOutput.text = "birthday: "
             
         }
-        
+       
         
     }
     
