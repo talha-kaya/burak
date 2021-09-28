@@ -52,7 +52,10 @@ class ViewController: UIViewController {
             UserDefaults.standard.removeObject(forKey: "names")
             nameOutput.text = "name: "
             }
-    
+         if (savedBirthday as? String) != nil {
+            
+            UserDefaults.standard.removeObject(forKey: "birthdays")
+            birthDayOutput.text = "birthday: "
             
         }
  
