@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+    //selam
     var name:String = ""
     
     var birthDay:String = ""
